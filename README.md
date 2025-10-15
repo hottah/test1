@@ -1,6 +1,6 @@
 # Test1
 
-これは、React SPAのための簡単なポートフォリオになります。
+これは、ReactでSPAを実装する簡単なポートフォリオになります。
 
 Live: https://hottah.github.io/test1  
 Source: https://github.com/hottah/test1
