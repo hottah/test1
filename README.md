@@ -8,12 +8,10 @@ Source: https://github.com/hottah/test1
 ![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue)
 
 ## Overview
-Home / About / Works の 3ページ構成のSPA。  
-**React + React Router** で実装し、**GitHub Pages** にホスティング。
+Home / About / Works の 3ページ構成のSPAです。  
+**React + React Router** で実装し、**GitHub Pages** にホスティングしました。
 
 ## Tech Choices
-- React: コンポーネント再利用と高速なDOM差分更新
-- React Router: SPAでURLに応じた表示切替
-- GitHub Pages + gh-pages: 無料・高速・更新が容易
-
-## Folder Structure
+- React: コンポーネント再利用と高速なDOM差分更新に絞って実装しました。
+- React Router: SPAでURLに応じた表示切替をおこないます。
+- GitHub Pages + gh-pages: 画面だけでなくコードの閲覧も可能とする選択になります。
