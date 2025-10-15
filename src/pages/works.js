@@ -1,9 +1,9 @@
 import React from 'react';
 
 const works = [
-  { title: 'Project A', desc: 'React SPA サンプル' },
-  { title: 'Project B', desc: 'Node.js API と連携' },
-  { title: 'Project C', desc: 'デザイン・UIコンポーネント' },
+  { title: 'Project A', desc: 'React SPA サンプル', url: '#' },
+  { title: 'Project B', desc: 'Node.js API と連携', url: '#' },
+  { title: 'Project C', desc: 'デザイン・UIコンポーネント', url: '#' },
 ];
 
 export default function Works() {
@@ -14,7 +14,7 @@ export default function Works() {
         {works.map((w) => (
           <li key={w.title}>
             <h3>{w.title}</h3>
-            <p>{w.desc}</p>
+            <a href={w.url} target="_blank">{w.desc}</a>
           </li>
         ))}
       </ul>
