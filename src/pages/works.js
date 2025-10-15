@@ -14,7 +14,7 @@ export default function Works() {
         {works.map((w) => (
           <li key={w.title}>
             <h3>{w.title}</h3>
-            <a href={w.url} target="_blank">{w.desc}</a>
+            <a target="_blank">{w.desc}</a>
           </li>
         ))}
       </ul>
