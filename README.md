@@ -17,4 +17,4 @@ Home / About / Works の 3ページ構成のSPAです。
 - React: コンポーネント再利用と高速なDOM差分更新に絞って実装しました。
 - React Router: SPAでURLに応じた表示切替をおこないます。
 - GitHub Pages + gh-pages: 画面だけでなくコードの閲覧も可能とする選択になります。
-- Node.js: npmを利用して開発用サーバーを起動するためのローカル実行環境。
+- Node.js: npmを利用して開発用サーバーを起動するためのローカル実行環境です。
