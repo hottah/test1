@@ -1,6 +1,6 @@
 # Test1
 
-これは、ReactでSPAを実装する簡単なポートフォリオになります。
+React を用いて構築したシンプルなシングルページアプリケーション（SPA）のポートフォリオサイトです。
 
 Live: https://hottah.github.io/test1  
 Source: https://github.com/hottah/test1
