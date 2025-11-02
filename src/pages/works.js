@@ -13,7 +13,7 @@ export default function Works() {
         {works.map((w) => (
           <li key={w.title}>
             <h3>{w.title}</h3>
-            <p>{w.desc}</p>
+            <p><a href={w.url} target="_blank" rel="noreferrer">{w.desc}</a></p>
           </li>
         ))}
       </ul>
