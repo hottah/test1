@@ -1,8 +1,8 @@
 import React from 'react';
 
 const works = [
-  { title: '個人受注：要件定義、設計、コーティング。', url: 'https://nailsalon-garnet.com', desc: 'ネイルサロン' },
-  { title: '個人受注：要件定義、設計、コーティング。（公開待ち）', url: 'https://npo-tagayasu.o.oo7.jp/_next/',  desc: 'NPO法人リニューアル案' },
+  { title: 'ブランドサイト', url: 'https://hanaemu.co.jp', desc: 'デザインディレクターより受注：Figma構築案件。' },
+  { title: 'NPO法人リニューアル案', url: 'https://npo-tagayasu.o.oo7.jp/',  desc: '個人受注：要件定義から完成まで。' },
 ];
 
 export default function Works() {
